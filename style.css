@@ -1,0 +1,43 @@
+h1 {
+	display: inline;
+}
+
+div {
+}
+
+div.navbar {
+	background-color: lightblue;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+div.navbar-right-cluster {
+	background-color: lightyellow;
+	float: right;
+}
+
+div.content {
+	background-color: lightpurple;
+	margin-top: 50px;
+}
+
+div.solution-question-container {
+	background-color: lightgrey;
+	width: 70%;
+	float: left;
+}
+
+div.solution {
+	background-color: pink;
+}
+
+div.question {
+	background-color: lightyellow;
+}
+
+div.feedback {
+	background-color: lightgreen;
+	width: 30%;
+	float: left;
+}

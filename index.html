@@ -34,8 +34,35 @@
     <nav class="navbar bg-secondary fixed-top">
       <a class="navbar-brand">Learn Art</a>
       <div class="btn-group">
-        <button type="button" class="btn">Solutions</button>
-        <button type="button" class="btn">Chat</button>
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+            Solutions
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">
+              Student A
+            </a>
+            <a class="dropdown-item" href="#">
+              Student B
+            </a>
+          </div>
+        </div>
+        <div class="btn-group">
+          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+            Chat
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">
+              Student A
+            </a>
+            <a class="dropdown-item" href="#">
+              Student B
+            </a>
+            <a class="dropdown-item" href="#">
+              Student C
+            </a>
+          </div>
+        </div>
         <button type="button" class="btn">Notifications</button>
       </div>
     </nav>
@@ -51,6 +78,12 @@
           </div>
           <h3>SOLUTION</h3>
           <p> Some random solution Lorry Epsom aye</p>
+            <form id="new-solution-form" action="#"><!-- FIX form action and input ID-->
+              <div class="form-group">
+                <textarea type="text" class="form-control" form="new-solution-form" id="new-solution" placeholder="Write solution here"></textarea>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </form>
         </div>
         <div class="col-sm-4 bg-dark text-light">
           <div class="row">
